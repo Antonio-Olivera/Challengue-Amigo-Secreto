@@ -28,8 +28,8 @@ Este proyecto es una aplicación sencilla en **JavaScript**, **HTML** y **CSS** 
 
 ## 📸 Vista previa  
 
-(Aquí puedes agregar una captura de pantalla de tu proyecto en acción)
+👉 [Ver proyecto en línea](https://antonio-olivera.github.io/Challengue-Amigo-Secreto/)
 
 <img src="preview.png" alt="Vista previa del proyecto">
 
-👉 [Ver proyecto en línea](https://antonio-olivera.github.io/Challengue-Amigo-Secreto/)
+
