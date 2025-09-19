@@ -30,4 +30,4 @@ Este proyecto es una aplicación sencilla en **JavaScript**, **HTML** y **CSS** 
 
 (Aquí puedes agregar una captura de pantalla de tu proyecto en acción)
 
-<img src="preview.png" alt="Vista previa del proyecto" width="400px">
+<img src="preview.png" alt="Vista previa del proyecto">
