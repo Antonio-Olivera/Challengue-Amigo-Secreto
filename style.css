@@ -6,6 +6,7 @@
     --color-button-hover: #e55720;
     --color-text: #444444;
     --color-white: #FFFFFF;
+    --color-button2: #4B69FD;
 }
 
 /* Estilos generales */
@@ -90,6 +91,8 @@ body {
 .button-container {
     width: 300px;
     justify-content: center;
+    display: flex; 
+    gap: 30px; 
 }
 
 /* Estilos de entrada de texto */
@@ -160,3 +163,19 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+.button-restart {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-button2);
+    font-size: 16px;
+}
+
+.button-restart:hover {
+    background-color: var(--color-button-hover);
+}
+
+

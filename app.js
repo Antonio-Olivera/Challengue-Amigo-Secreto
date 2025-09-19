@@ -52,5 +52,38 @@ function agregarAmigo() {
   limpiarCaja();
 }
 
+function sortearAmigo() {
+  const resultado = id("resultado");
+
+  if (listaamigos.length === 0) {
+    resultado.innerHTML = "<p>No hay nombres para sortear.</p>";
+    return;
+  }
+
+  const indice = Math.floor(Math.random() * listaamigos.length);
+  const amigoSecreto = listaamigos[indice];
+  resultado.innerHTML = `<p>${amigoSecreto}</p>`;
+}
+
+(function configurarAtajos() {
+  const input = id("amigo");
+  if (!input) return;
+
+  input.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" && !e.ctrlKey) {
+      agregarAmigo();
+    } else if (e.key === "Enter" && e.ctrlKey) {
+      sortearAmigo();
+    }
+  });
+})();
+
+function reiniciar() {
+  listaamigos = [];
+  renderizarLista();
+  id("resultado").innerHTML = "<p></p>";
+  limpiarCaja();
+}
+
   
 
